@@ -15,7 +15,8 @@ fi
 
 THIS_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
-declare -a MODELS=("mm9" "mm10" "hg19" "hg38")
+#declare -a MODELS=("mm9" "mm10" "hg19" "hg38")
+declare -a MODELS=("hg38")
 
 OUT_DIR="${THIS_DIR}/../bowtie2Index"
 SOURCE_DIR="${OUT_DIR}/sourceFA"
