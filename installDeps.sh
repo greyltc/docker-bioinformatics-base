@@ -7,3 +7,6 @@ su docker -c 'pacaur -S --noprogressbar --needed --noedit --noconfirm bowtie2'
 
 # install udr
 su docker -c 'pacaur -S --noprogressbar --needed --noedit --noconfirm udr'
+
+# install python
+pacman -S --noprogressbar --needed --noconfirm python
