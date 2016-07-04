@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -eu -o pipefail
 
 # this script will delete all existing support files then re-build them from scratch
 
@@ -13,5 +14,5 @@ bash "$THIS_DIR/makeExampleData.sh"
 rm -rf "${THIS_DIR}/../inputData"
 bash "$THIS_DIR/makeVPlotIndex.sh"
 
-rm -rf "${THIS_DIR}/../bowtie2Index"
-bash "$THIS_DIR/makeBT2Index.sh"
+#rm -rf "${THIS_DIR}/../bowtie2Index"
+#bash "$THIS_DIR/makeBT2Index.sh"
