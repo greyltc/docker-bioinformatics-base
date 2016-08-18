@@ -1,4 +1,5 @@
-FROM greyltc/bioinformatics-base:part4
+FROM greyltc/bioinformatics-base:oneShot
+#FROM greyltc/bioinformatics-base:part5
 MAINTAINER Grey Christoforo <grey@christoforo.net>
 
 # enable webdav
