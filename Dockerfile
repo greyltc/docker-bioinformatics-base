@@ -10,9 +10,3 @@ ADD scripts scripts
 
 # make all the support files
 RUN bash scripts/makeAllSupportFiles.sh
-
-# enable webdav
-ENV ENABLE_DAV true
-
-# start all the servers
-CMD run-sshd; run-gateone; start-servers; sleep infinity
