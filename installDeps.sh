@@ -6,7 +6,7 @@ pacman -S --noprogressbar --needed --noconfirm intel-tbb
 su docker -c 'pacaur -S --noprogressbar --needed --noedit --noconfirm bowtie2'
 
 # install udr
-su docker -c 'pacaur -S --noprogressbar --needed --noedit --noconfirm udr'
+su docker -c 'pacaur -S --noprogressbar --needed --noedit --noconfirm udr-git'
 
 # install python
 pacman -S --noprogressbar --needed --noconfirm python
