@@ -13,5 +13,5 @@ THIS_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd -P)
 #rm -rf "${THIS_DIR}/../inputData"
 #bash "$THIS_DIR/makeVPlotIndex.sh"
 
-rm -rf "${THIS_DIR}/../bowtie2Index"
+#rm -rf "${THIS_DIR}/../bowtie2Index"
 bash "$THIS_DIR/makeBT2Index.sh"
