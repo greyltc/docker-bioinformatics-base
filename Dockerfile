@@ -1,12 +1,5 @@
-FROM greyltc/lamp-gateone
+FROM greyltc/docker-bioinformatics-base:part1
 MAINTAINER Grey Christoforo <grey@christoforo.net>
 
-# install a few required deps
-ADD installDeps.sh /usr/sbin/install-deps
-RUN install-deps
-
-# add the setup scripts
-ADD scripts scripts
-
-# make all the support files
-RUN bash scripts/makeAllSupportFiles.sh
+# make all the BT2 indicies
+RUN bash scripts/makeBT2Index.sh
