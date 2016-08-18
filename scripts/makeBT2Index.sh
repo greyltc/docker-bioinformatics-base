@@ -41,7 +41,7 @@ for MODEL in "${MODELS[@]}"; do
   FA_LIST="$(ls -t *.fa | tr '\n' ',')"
   FA_LIST=${FA_LIST::-1}
   echo "Building $MODEL bowtie2 index..."
-  bowtie2-build $FA_LIST $MODEL
+  bowtie2-build --threads $(nproc) $FA_LIST $MODEL
   mv $MODEL* "$OUT_DIR/"
 done
 rm -rf ${SOURCE_DIR}
