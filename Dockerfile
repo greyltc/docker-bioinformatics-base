@@ -1,4 +1,4 @@
-FROM greyltc/docker-bioinformatics-base:2-bt2mm10
+FROM greyltc/bioinformatics-base:2-bt2mm10
 MAINTAINER Grey Christoforo <grey@christoforo.net>
 
 # make all the BT2 indicies
