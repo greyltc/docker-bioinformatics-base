@@ -2,4 +2,4 @@ FROM greyltc/docker-bioinformatics-base:setup
 MAINTAINER Grey Christoforo <grey@christoforo.net>
 
 # make all the BT2 indicies
-RUN bash scripts/makeBT2Index.sh mm9
+RUN bash scripts/makeBT2Index.sh mm10
