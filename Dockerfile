@@ -1,9 +1,6 @@
 FROM greyltc/bioinformatics-base:part4
 MAINTAINER Grey Christoforo <grey@christoforo.net>
 
-# make all the support files
-RUN bash scripts/makeAllSupportFiles.sh
-
 # enable webdav
 ENV ENABLE_DAV true
 
