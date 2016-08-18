@@ -15,4 +15,7 @@ rm -rf "${THIS_DIR}/../inputData"
 bash "$THIS_DIR/makeVPlotIndex.sh"
 
 #rm -rf "${THIS_DIR}/../bowtie2Index"
-#bash "$THIS_DIR/makeBT2Index.sh"
+#bash "$THIS_DIR/makeBT2Index.sh" mm9
+#bash "$THIS_DIR/makeBT2Index.sh" mm10
+#bash "$THIS_DIR/makeBT2Index.sh" hg19
+#bash "$THIS_DIR/makeBT2Index.sh" hg38
